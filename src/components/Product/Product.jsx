@@ -1,10 +1,13 @@
+/* eslint-disable react/prop-types */
 // import React from 'react';
 import './Product.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Product = (props) => {
-    const { img, name, price, quantity, ratings, seller, shipping, stock } = props.product;
+    // eslint-disable-next-line react/prop-types
+    const { img, name, price, ratings, seller } = props.product;
+    // eslint-disable-next-line react/prop-types
     const handleAddToCart = props.handleAddToCart;
     return (
         <div className='product'>
