@@ -14,3 +14,16 @@
 .cart h6 {
     font-size: 21px;
 }
+
+.btn-clear-cart {
+    border-radius: 4px;
+    background: #FF3030;
+    width: 95%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
